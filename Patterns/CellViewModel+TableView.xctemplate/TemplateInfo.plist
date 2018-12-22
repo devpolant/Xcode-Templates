@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>CellViewModel template for UITableView</string>
+	<key>Summary</key>
+	<string>CellViewModel template for UITableView</string>
+	<key>SortOrder</key>
+	<string>30</string>
+	<key>DefaultCompletionName</key>
+	<string>CellViewModel+TableView</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>modelName</string>
+			<key>Name</key>
+			<string>New CellViewModel Name:</string>
+			<key>Description</key>
+			<string>The name of model to create</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Required</key>
+			<true/>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_modelName___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_modelName___CellModel</string>
+			<key>Identifier</key>
+			<string>modelClassName</string>
+			<key>Name</key>
+			<string>CellViewModel Name:</string>
+			<key>Description</key>
+			<string>The CellViewModel implementation name</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_modelName___TableViewCell</string>
+			<key>Identifier</key>
+			<string>cellClassName</string>
+			<key>Name</key>
+			<string>Cell Name:</string>
+			<key>Description</key>
+			<string>The cell name</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+</dict>
+</plist>
