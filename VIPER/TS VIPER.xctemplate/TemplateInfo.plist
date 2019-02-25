@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>VIPER module template</string>
+	<key>Summary</key>
+	<string>VIPER module template</string>
+	<key>SortOrder</key>
+	<string>1</string>
+	<key>DefaultCompletionName</key>
+	<string></string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>moduleName</string>
+			<key>Name</key>
+			<string>New Module Name:</string>
+			<key>Description</key>
+			<string>The name of the module to create</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Required</key>
+			<true/>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>moduleType</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Module Type:</string>
+			<key>Description</key>
+			<string>The module type</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>Plain</string>
+			<key>Values</key>
+			<array>
+				<string>Plain</string>
+				<string>Inherited from Base</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___ViewController</string>
+			<key>Identifier</key>
+			<string>viewControllerName</string>
+			<key>Description</key>
+			<string>The view controller name</string>
+			<key>Name</key>
+			<string>ViewController Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___Presenter</string>
+			<key>Identifier</key>
+			<string>presenterName</string>
+			<key>Description</key>
+			<string>The presenter name</string>
+			<key>Name</key>
+			<string>Presenter Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___Interactor</string>
+			<key>Identifier</key>
+			<string>interactorName</string>
+			<key>Description</key>
+			<string>The interactor name</string>
+			<key>Name</key>
+			<string>Interactor Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___Wireframe</string>
+			<key>Identifier</key>
+			<string>wireFrameName</string>
+			<key>Description</key>
+			<string>The wireframe name</string>
+			<key>Name</key>
+			<string>WireFrame Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___Protocols</string>
+			<key>Identifier</key>
+			<string>protocolsName</string>
+			<key>Description</key>
+			<string>The protocols name</string>
+			<key>Name</key>
+			<string>Protocols Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+</dict>
+</plist>
