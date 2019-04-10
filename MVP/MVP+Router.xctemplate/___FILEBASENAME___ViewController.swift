@@ -4,7 +4,7 @@ import UIKit
 
 final class ___VARIABLE_moduleName___ViewController: UIViewController, ___VARIABLE_moduleName___ViewInput {
     
-    var output: ___VARIABLE_moduleName___ViewOutput!
+    var presenter: ___VARIABLE_moduleName___ViewOutput!
     
     // MARK: - Life Cycle
     

@@ -4,7 +4,7 @@ import UIKit
 
 protocol ___VARIABLE_moduleName___RouterDelegate: class {
     // FIXME: make first letter in lowercase.
-    func ___VARIABLE_moduleName___(_ router: ___VARIABLE_moduleName___Router, didFinishWithAction action: ___VARIABLE_moduleName___Router.Action)
+    func ___VARIABLE_moduleName___Router(_ router: ___VARIABLE_moduleName___Router, didFinishWithAction action: ___VARIABLE_moduleName___Router.Action)
 }
 
 struct ___VARIABLE_moduleName___Input {
@@ -37,6 +37,6 @@ final class ___VARIABLE_moduleName___Router {
     }
     
     func dismiss() {
-        delegate?.___VARIABLE_moduleName___(self, didFinishWithAction: .dismiss)
+        delegate?.___VARIABLE_moduleName___Router(self, didFinishWithAction: .dismiss)
     }
 }
