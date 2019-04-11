@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>SupplementaryViewModel header template for UICollectionView</string>
+	<key>Summary</key>
+	<string>SupplementaryViewModel header template for UICollectionView</string>
+	<key>SortOrder</key>
+	<string>30</string>
+	<key>DefaultCompletionName</key>
+	<string>SupplementaryHeaderViewModel</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>modelName</string>
+			<key>Name</key>
+			<string>New SupplementaryViewModel Name:</string>
+			<key>Description</key>
+			<string>The name of model to create</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Required</key>
+			<true/>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_modelName___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_modelName___HeaderModel</string>
+			<key>Identifier</key>
+			<string>modelClassName</string>
+			<key>Name</key>
+			<string>SupplementaryViewModel Name:</string>
+			<key>Description</key>
+			<string>The SupplementaryViewModel implementation name</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_modelName___HeaderView</string>
+			<key>Identifier</key>
+			<string>headerClassName</string>
+			<key>Name</key>
+			<string>Header Name:</string>
+			<key>Description</key>
+			<string>The header name</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+</dict>
+</plist>
