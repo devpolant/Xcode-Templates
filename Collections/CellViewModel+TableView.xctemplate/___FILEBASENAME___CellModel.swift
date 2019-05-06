@@ -8,4 +8,3 @@ struct ___VARIABLE_modelName___CellModel: CellViewModel {
         
     }
 }
-
