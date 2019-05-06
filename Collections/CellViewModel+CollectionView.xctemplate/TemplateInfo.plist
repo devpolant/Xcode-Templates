@@ -37,6 +37,16 @@
 			<string>static</string>
 		</dict>
 		<dict>
+			<key>Identifier</key>
+			<string>Xib</string>
+			<key>Name</key>
+			<string>Also create XIB file</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
 			<key>Default</key>
 			<string>___VARIABLE_modelName___CellModel</string>
 			<key>Identifier</key>
