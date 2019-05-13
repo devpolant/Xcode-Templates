@@ -19,6 +19,7 @@ final class ___VARIABLE_moduleName___Presenter: ___VARIABLE_moduleName___ViewOut
     // MARK: - View Output
     
     func viewDidLoad() {
-        
+        let viewModel = ___VARIABLE_moduleName___ViewModel()
+        view?.setup(with: viewModel)
     }
 }

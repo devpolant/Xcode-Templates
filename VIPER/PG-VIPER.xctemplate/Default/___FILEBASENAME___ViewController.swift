@@ -26,4 +26,8 @@ final class ___VARIABLE_moduleName___ViewController: UIViewController, ___VARIAB
     }
     
     // MARK: - View Input
+    
+    func setup(with viewModel: ___VARIABLE_moduleName___ViewModel) {
+        
+    }
 }

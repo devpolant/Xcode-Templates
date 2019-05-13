@@ -37,6 +37,16 @@
 			<true/>
 		</dict>
 		<dict>
+			<key>Identifier</key>
+			<string>Xib</string>
+			<key>Name</key>
+			<string>Also create XIB file</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
 			<key>Default</key>
 			<string>___VARIABLE_moduleName___ViewController</string>
 			<key>Identifier</key>
@@ -45,6 +55,20 @@
 			<string>The view controller name</string>
 			<key>Name</key>
 			<string>ViewController Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___ViewModel</string>
+			<key>Identifier</key>
+			<string>viewModelName</string>
+			<key>Description</key>
+			<string>The view model name</string>
+			<key>Name</key>
+			<string>ViewModel Name:</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>

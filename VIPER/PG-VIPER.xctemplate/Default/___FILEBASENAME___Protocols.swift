@@ -4,6 +4,7 @@
 
 // MARK: Input
 protocol ___VARIABLE_moduleName___ViewInput: class {
+    func setup(with viewModel: ___VARIABLE_moduleName___ViewModel)
 }
 
 // MARK: Output
