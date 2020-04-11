@@ -2,10 +2,10 @@
 
 import UIKit
 
-protocol ___VARIABLE_moduleName___ViewInput: class {
+protocol ___VARIABLE_moduleName___ViewInput: AnyObject {
 }
 
-protocol ___VARIABLE_moduleName___ViewOutput: class {
+protocol ___VARIABLE_moduleName___ViewOutput: AnyObject {
 }
 
 final class ___VARIABLE_moduleName___ViewController: UIViewController, View {

@@ -2,10 +2,10 @@
 
 import Foundation
 
-protocol ___VARIABLE_moduleName___InteractorInput: class {
+protocol ___VARIABLE_moduleName___InteractorInput: AnyObject {
 }
 
-protocol ___VARIABLE_moduleName___InteractorOutput: class {
+protocol ___VARIABLE_moduleName___InteractorOutput: AnyObject {
 }
 
 final class ___VARIABLE_moduleName___Interactor: Interactor, ___VARIABLE_moduleName___InteractorInput {

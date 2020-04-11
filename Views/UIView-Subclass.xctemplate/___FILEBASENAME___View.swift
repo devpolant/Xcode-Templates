@@ -1,7 +1,6 @@
 //___FILEHEADER___
 
 import UIKit
-import SnapKit
 
 final class ___VARIABLE_viewName___View: UIView {
     

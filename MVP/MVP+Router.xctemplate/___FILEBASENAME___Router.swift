@@ -2,7 +2,7 @@
 
 import UIKit
 
-protocol ___VARIABLE_moduleName___RouterDelegate: class {
+protocol ___VARIABLE_moduleName___RouterDelegate: AnyObject {
     // FIXME: make first letter in lowercase.
     func ___VARIABLE_moduleName___Router(_ router: ___VARIABLE_moduleName___Router, didFinishWithAction action: ___VARIABLE_moduleName___Router.Action)
 }
