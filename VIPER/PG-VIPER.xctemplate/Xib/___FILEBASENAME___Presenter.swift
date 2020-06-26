@@ -19,13 +19,14 @@ final class ___VARIABLE_moduleName___Presenter: ___VARIABLE_moduleName___ViewOut
     // MARK: - View Output
     
     func viewDidLoad() {
-        let viewModel = makeViewModel()
+        let entity = interactor.loadData()
+        let viewModel = makeViewModel(for: entity)
         view?.setup(with: viewModel)
     }
     
     // MARK: - View Model
     
-    private func makeViewModel() -> ___VARIABLE_moduleName___ViewModel {
+    private func makeViewModel(for entity: ___VARIABLE_moduleName___Entity) -> ___VARIABLE_moduleName___ViewModel {
         return ___VARIABLE_moduleName___ViewModel()
     }
 }

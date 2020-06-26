@@ -15,4 +15,8 @@ final class ___VARIABLE_moduleName___Interactor: ___VARIABLE_moduleName___Intera
     }
     
     // MARK: - Interactor Input
+    
+    func loadData() -> ___VARIABLE_moduleName___Entity {
+        return ___VARIABLE_moduleName___Entity()
+    }
 }

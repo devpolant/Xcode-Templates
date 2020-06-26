@@ -16,6 +16,7 @@ protocol ___VARIABLE_moduleName___ViewOutput: AnyObject {
 
 // MARK: Input
 protocol ___VARIABLE_moduleName___InteractorInput: AnyObject {
+    func loadData() -> ___VARIABLE_moduleName___Entity
 }
 
 // MARK: Output

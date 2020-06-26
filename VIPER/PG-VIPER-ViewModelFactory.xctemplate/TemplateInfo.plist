@@ -62,6 +62,20 @@
 		</dict>
 		<dict>
 			<key>Default</key>
+			<string>___VARIABLE_moduleName___ViewModelFactory</string>
+			<key>Identifier</key>
+			<string>viewModelFactoryName</string>
+			<key>Description</key>
+			<string>The view model factory name</string>
+			<key>Name</key>
+			<string>ViewModelFactory Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
 			<string>___VARIABLE_moduleName___ViewModel</string>
 			<key>Identifier</key>
 			<string>viewModelName</string>
