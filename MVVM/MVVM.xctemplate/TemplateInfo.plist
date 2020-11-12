@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>VIPER module template</string>
+	<key>Summary</key>
+	<string>VIPER module template</string>
+	<key>SortOrder</key>
+	<string>1</string>
+	<key>DefaultCompletionName</key>
+	<string></string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>moduleName</string>
+			<key>Name</key>
+			<string>New Module Name:</string>
+			<key>Description</key>
+			<string>The name of the module to create</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Required</key>
+			<true/>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>Xib</string>
+			<key>Name</key>
+			<string>Also create XIB file</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___ViewController</string>
+			<key>Identifier</key>
+			<string>viewControllerName</string>
+			<key>Description</key>
+			<string>The view controller name</string>
+			<key>Name</key>
+			<string>ViewController Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___ViewModel</string>
+			<key>Identifier</key>
+			<string>viewModelName</string>
+			<key>Description</key>
+			<string>The view model name</string>
+			<key>Name</key>
+			<string>ViewModel Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___ViewState</string>
+			<key>Identifier</key>
+			<string>viewStateName</string>
+			<key>Description</key>
+			<string>The view state name</string>
+			<key>Name</key>
+			<string>ViewState Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___Router</string>
+			<key>Identifier</key>
+			<string>routerName</string>
+			<key>Description</key>
+			<string>The router name</string>
+			<key>Name</key>
+			<string>Router Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___Builder</string>
+			<key>Identifier</key>
+			<string>builderName</string>
+			<key>Description</key>
+			<string>The builder name</string>
+			<key>Name</key>
+			<string>Builder Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___Protocols</string>
+			<key>Identifier</key>
+			<string>protocolsName</string>
+			<key>Description</key>
+			<string>The protocols name</string>
+			<key>Name</key>
+			<string>Protocols Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+</dict>
+</plist>
